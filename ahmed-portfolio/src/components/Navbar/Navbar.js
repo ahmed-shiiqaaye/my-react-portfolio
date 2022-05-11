@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 function Navbar() {
-    const [click, setClick ] = useState(true)
+    const [click, setClick ] = useState(false)
     const handleClick = () => setClick(!click)
   return (
     <header>

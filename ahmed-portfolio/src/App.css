@@ -9,7 +9,19 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 body{
   font-family: 'Fira Sans', sans-serif;
+}
+.title{
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.title h2{
+  font-size: 35px;
+}
+.title span{
+  color: rgb(226, 110, 15);
 }

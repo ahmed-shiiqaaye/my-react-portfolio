@@ -11,6 +11,13 @@
   box-sizing: border-box;
   overflow-x: hidden;
 }
+:root{
+  --w:#d0efff;
+  --c1:#03254c;
+  --c2:#1167b1;
+  --c3:#187bcd;
+  --c4:#2a9df4;
+}
 body{
   font-family: 'Fira Sans', sans-serif;
 }

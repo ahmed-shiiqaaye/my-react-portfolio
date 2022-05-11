@@ -1,14 +1,14 @@
 main{
     height: 90vh;
     width: 100%;
-    background: linear-gradient(90deg,rgba(0,0,0,.7) 50%,rgba(0,0,0,.8) 50%),
-    url(../../../public/img/Home.jpg) no-repeat center center/cover;
+    background: linear-gradient(to top right,var(--c2) 30%,#03254cce),
+    url(../../../public/img/me4.jpg) no-repeat center center/cover;
 }
 main .container{
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     color: white;
     text-align: center;
@@ -17,6 +17,7 @@ main .container h2{
     font-size: 45px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    color: white;
 }
 main .container p{
     text-transform: capitalize;
@@ -67,10 +68,14 @@ main .container .social-icons a{
     border: 1px solid rgba(255, 255, 255, 0.451);
     font-size: 20px;
     border-radius: 4px;
-    background: rgba(0,0,0,.7);
+    background:var(--c1);
     transition: all .3s ease-in-out;
 }
 main .container .social-icons a:hover{
-    background: white;
-    color: #000;
+    background:var(--c3);
+    color: var(--w);
+}
+main .wave{
+    position: absolute;
+    bottom: 0px;
 }

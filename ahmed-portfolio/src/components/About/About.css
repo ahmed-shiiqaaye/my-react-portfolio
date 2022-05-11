@@ -1,5 +1,6 @@
 .about{
     padding: 50px 0;
+    background: var(--w);
 }
 .about .container .flex{
     display: flex;
@@ -32,9 +33,9 @@
     opacity: .95;
 }
 .about .container .flex .text a{
- background: dodgerblue;
- color: white;
- display: flex;
+    background: dodgerblue;
+    color: white;
+    display: flex;
  justify-content: center;
  align-items: center;
  width: 180px;
@@ -42,6 +43,10 @@
  gap: 8px;
  margin: 20px 0;
  text-transform: capitalize;
+ transition: all .3s ease-in-out;
+}
+.about .container .flex .text a:hover{
+    background: var(--c1);
 }
 .about .container .flex .text a i{
     font-size: 20px;

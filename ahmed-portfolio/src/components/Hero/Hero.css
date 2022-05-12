@@ -11,7 +11,6 @@ main .container{
     align-items: flex-start;
     flex-direction: column;
     color: white;
-    text-align: center;
 }
 main .container h2{
     font-size: 45px;
@@ -37,6 +36,7 @@ main .container .btns a{
     justify-content: center;
     align-items: center;
     transition: all .3s ease-in-out;
+    cursor: pointer;
 }
 main .container .btns a.dark{
     background: white;

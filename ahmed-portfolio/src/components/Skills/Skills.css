@@ -1,10 +1,10 @@
 .skills{
-    padding: 50px 0;
+    padding: 50px 0 100px;
     background: var(--w);
 }
 .skills .container .grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     gap: 40px;
 }
 .skills .container .grid .card{
@@ -13,8 +13,9 @@
     flex-direction: column;
     gap: 10px;
     /* background: #2a9cf4a2; */
-    background: white;
+    background: #1166b149;
     text-align: center;
+    border-radius: 10px;
 }
 .skills .container .grid .card i{
     font-size: 40px;
